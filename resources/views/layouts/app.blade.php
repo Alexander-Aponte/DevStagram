@@ -17,7 +17,7 @@
             </h1>
             <nav class="flex gap-3 items-center">
                 <a class="font-bold uppercase text-gray-600 text-sm" href="#">Login</a>
-                <a class="font-bold uppercase text-gray-600 text-sm" href="crear-cuenta">Crear Cuenta</a>
+                <a class="font-bold uppercase text-gray-600 text-sm" href="{{ route('registro')}}">Crear Cuenta</a>
             </nav>
         </div>
         </header>
@@ -25,8 +25,9 @@
             <h2 class="font-black text-center text-3xl mb-10">
                 @yield('titulo')
             </h2>
+            
             @yield('contenido')
-
+           
         </main>
 
         <footer>
